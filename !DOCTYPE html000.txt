@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>萬波岡山店</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Noto Sans TC", sans-serif;
+        background: #faf7f2;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #c86b4a;
+        color: white;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 16px;
+        opacity: 0.9;
+    }
+
+    section {
+        max-width: 900px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    h2 {
+        color: #c86b4a;
+        border-left: 6px solid #c86b4a;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        margin-bottom: 20px;
+    }
+
+    .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .menu-item {
+        background: #fff7f3;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        background: #eee;
+        font-size: 14px;
+    }
+
+    /* 手機版 */
+    @media (max-width: 768px) {
+        .menu-grid {
+            grid-template-columns: 1fr;
+        }
+
+        header h1 {
+            font-size: 26px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>萬波岡山店</h1>
+    <p>溫暖手作茶飲｜在地風味・安心品質</p>
+</header>
+
+<section>
+    <h2>餐廳介紹</h2>
+    <div class="card">
+        萬波岡山店以「回到最純粹的茶飲」為理念，提供高品質茶葉與手作飲品。
+        堅持現泡現做，讓每一杯飲料都保留最自然的茶香與溫度。
+    </div>
+</section>
+
+<section>
+    <h2>招牌餐點</h2>
+    <div class="card">
+        <div class="menu-grid">
+            <div class="menu-item">蘋香紅茶</div>
+            <div class="menu-item">紅豆粉粿鮮奶</div>
+            <div class="menu-item">芋圓鮮奶茶</div>
+            <div class="menu-item">黑糖珍珠鮮奶</div>
+            <div class="menu-item">四季春茶</div>
+            <div class="menu-item">百香綠茶</div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>營業時間</h2>
+    <div class="card">
+        星期一～星期日<br>
+        10:00 - 21:30
+    </div>
+</section>
+
+<section>
+    <h2>店家位置</h2>
+    <div class="card">
+        高雄市岡山區（實際地址可再補上）<br>
+        可搭乘公車或自行開車前往，附近有停車空間。
+    </div>
+</section>
+
+<section>
+    <h2>聯絡資訊</h2>
+    <div class="card">
+        電話：07-XXXX-XXXX<br>
+        Instagram：@wanpo_okayama<br>
+        外送服務：Uber Eats / Foodpanda
+    </div>
+</section>
+
+<footer>
+    © 2026 萬波岡山店 All Rights Reserved
+</footer>
+
+</body>
+</html>
